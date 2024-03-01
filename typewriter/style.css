@@ -1,0 +1,19 @@
+body {
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 1.3rem;
+    letter-spacing: .25em;
+}
+
+#typewriter {
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2.5px solid black;
+    animation: blink 0.95s step-end infinite;
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
